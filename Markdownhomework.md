@@ -74,9 +74,9 @@ Right aligned columns
 
 |Option |Description
 |-------|-----------
-|data   |  path to data files
-|engine |  engine to be used.
-|ext    |   extension to be used.
+|data   | <div style="text-align: right"> path to data files </div> 
+|engine | <div style="text-align: right"> engine to be used. </div> 
+|ext    | <div style="text-align: right"> extension to be used. </div> 
 
 
 
@@ -87,12 +87,47 @@ Right aligned columns
 ![Alternative Text](./test.jpg)
 
 
+## Plugins
+The killer feature of `markdown-it` is very effective support of
+[syntax plugins.](https://www.npmjs.com/search?q=keywords:markdown-it-plugin)
+
+
+
+## Emojies in block quotes
+
+>:smiley:  :wink: :stuck_out_tongue:
+>:angry:   :anguished:  :hushed:
+>:weary:    :joy:    :rage:
 
 ### Footnotes
 Footnote-1. [^first].
+[^first]: This is the footnote.
 
 Footnote-2. [^second].
+[^second]: This is the footnote.
 
 
 ### Definition List
 
+-Term 1 
+  : Definition 1 
+- Term 2
+:  Definition 1a
+: Definition 2b
+
+
+## Format a list as a task list
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+
+# Algebraic notation
+
+Area of a circle is $\pi r^2$
+
+And, the area of a triangle is:
+
+$$
+A_{triangle}=\frac{1}{2}({b}\cdot{h})
+$$
